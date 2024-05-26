@@ -1,0 +1,20 @@
+
+table, td{
+    border: 3px solid black;
+    border-collapse:collapse; 
+    font-size: 50px;
+    padding: 10px;
+    
+}
+table{
+    width: 50%;
+    margin: 100px 200px;
+    border: 10px solid rgb(23, 235, 58);
+}
+td{
+    height: 60px;
+}
+.a{
+    background-color: black;
+}
+

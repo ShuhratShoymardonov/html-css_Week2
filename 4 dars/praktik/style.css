@@ -1,0 +1,23 @@
+/* button{
+    border: none;
+    background-color: transparent;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.box{
+    width: 30%;
+    padding: 30px 0;
+    text-align: center;
+    border: 3px solid red;
+    font-size: 30px;
+}
+.cont{
+    display: flex;
+    flex-direction:  row-reverse ;/*row, tow-revers, column, column-revers */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap ,wrap-reverse,nowrap; */
+    
+}

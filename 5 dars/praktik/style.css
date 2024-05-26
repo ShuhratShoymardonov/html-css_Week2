@@ -1,0 +1,54 @@
+.contener{
+   height:600px;
+    background-color: aqua;
+    font-size: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    flex-wrap: wrap;
+    
+}
+.boc1{
+    border: 3px solid red;
+    width: 30%;
+    height: 200px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .a1{
+    order: 3;
+    align-self: flex-start;
+    border-radius: 50%;
+    flex-grow: 1;
+} */
+.a2{
+    order: 3;
+    align-self: end;
+
+}
+.a3{
+    order: 3;
+    align-self: center;
+}
+.a4{
+    order: 2;
+}
+.a1:hover{
+    transform: rotate(3333333333333deg);
+    transition: 99999s;
+}
+.a1:hover{
+    flex-grow: 3;
+    flex-direction: 2s;
+}
+.a2:hover{
+    flex-grow: 3;
+    flex-direction: 5s;
+}
+.a3:hover{
+    flex-grow: 3;
+    flex-direction: 2s;
+}
+

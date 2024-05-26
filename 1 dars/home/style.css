@@ -1,0 +1,45 @@
+.contener{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px
+    
+}
+caption{
+    border: 1px solid black;
+    padding: 30px 280px;
+    font-size: 32px;
+    font-family: 'Courier New';
+    margin-bottom: 5px;
+    margin-top: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 30px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.349);
+}
+.kabut{
+    background-color: rgb(140, 252, 252);
+}
+th,td{
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
+.red th {
+    background-color: rgba(202, 84, 84, 0.123);
+}
+.a1{
+    width: 180px;
+}
+.a2{
+    background-color: rgb(194, 191, 191);
+}
+th:hover, td:hover, caption:hover{
+    background-color: rgb(30, 7, 238);
+    color: aliceblue;
+}
+
+
+

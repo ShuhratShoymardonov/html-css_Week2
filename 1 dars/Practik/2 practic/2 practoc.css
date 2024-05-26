@@ -1,0 +1,9 @@
+td,tr{
+    border: 5px solid black;
+    font-size: 50px;
+    padding: 10px;
+}
+table{
+    border-collapse:collapse ;
+    margin: 100px 200px;
+}
